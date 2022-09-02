@@ -1,14 +1,9 @@
-/**
- * Challenge:
- * Add Navigation menu
- */
-
 function Header() {
     return (
         <header>
-            <nav>
+            <nav className="nav">
                 <h1>My Site Title</h1>
-                <ul>
+                <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
                     <li>Contact</li>
