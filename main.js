@@ -1,13 +1,6 @@
 /**
  * Challenge:
- * Create a custom Page component that returns an ordered list
- * of reasons why you are excited to learn react.
- */
-
-/**
- * Challenge 2:
- * To Add Header and Footer to our page.
- *
+ * Add Navigation menu
  */
 
 function Header() {
@@ -15,6 +8,11 @@ function Header() {
         <header>
             <nav>
                 <h1>My Site Title</h1>
+                <ul>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
