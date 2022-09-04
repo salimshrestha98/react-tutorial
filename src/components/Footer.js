@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <footer>
-            &copy; Salim Shrestha. All rights reserved.
+            <p>&copy; Salim Shrestha. All rights reserved.</p>
         </footer>
     )
 }

@@ -1,9 +1,13 @@
+import logo from '../logo.svg';
 
 function Header() {
     return (
         <header>
             <nav className="nav">
-                <h1>My Site Title</h1>
+                <img
+                    src={logo}
+                />
+                <h4>My Site Title</h4>
                 <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
