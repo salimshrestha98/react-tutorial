@@ -1,0 +1,54 @@
+.nav {
+    background: #21222a;
+    color: #ffffff;
+    display: flex;
+    height: 60px;
+    padding: 0 30px;
+}
+
+.nav img {
+    display: inline-block;
+    align-self: center;
+    height: 40px;
+}
+
+.nav h4 {
+    display: inline-block;
+    align-self: center;
+    margin: 0;
+}
+
+.nav-items {
+    display: inline-block;
+    align-self: center;
+    margin: 0 0 0 auto;
+    padding: 0;
+}
+
+.nav-items li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+#main {
+    padding: 0 30px;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.1);
+    background-image: url('../logo.svg');
+    background-size: cover;
+    background-position: right 75%;
+}
+
+.reasons-list li::marker {
+    color: #61dafb;
+}
+
+footer {
+    padding: 0 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: grey;
+}
